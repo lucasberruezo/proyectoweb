@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #293462;
+}
+
+#hand {
+    background: url(img/handcomputer.jpg);
+    background-size: cover;
+    background-position-x: center;
+    opacity: 1;
+}
+
+header {
+    margin-top: 32px;
+}
+
+.smallfont {
+    font-size: 14px;
+}
+
+@media (max-width: 992px) {
+
+    #jumbo {
+        width: 100%;
+    }
+    #forgetpass {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 766px) {
+
+    #jumbo {
+        margin-bottom: 50px;
+    }
+
+    #hand {
+        height: 200px;
+        background-position-y: center;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+        line-height: 200px;
+        margin-top: 0px;
+    }
+
+    .logo {
+        height: 180px;
+    }
+
+    input[type="text"],
+    input[type="password"]{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .form-group {
+        text-align: center;
+    }
+
+    .enviar {
+        width: 100%;
+        justify-content: space-around !important;
+        margin-top: 10px !important;
+    }
+
+    button[type="submit"]{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #jumbo {
+        margin-top: 0px !important;
+        margin-bottom: 0px;
+        border-radius: none;
+    }
+
+    .formulario {
+        margin-bottom: 50px !important;
+    }
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700i&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icono.SVG" type="image/x-icon">
+    <title>Turnero Digital</title>
+</head>
+
+<body>
+
+
+
+            <div id="jumbo" class="row col-sm-9 col-md-8 col-xl-7 p-0 mx-auto mt-5 shadow rounded">
+                
+                <div id="hand" class="col-xs-12 col-md-6 bg-light rounded-left">
+                    <header class="col-12 col-md-6">
+                        <img src="img/icono.SVG" width="auto" height="100" class="logo">
+                    </header>
+                </div>
+
+                <div class="col-xs-12 col-md-6 bg-light rounded-right">
+
+                    <form role="form">
+                        <div class="form-group col-12  mt-5">
+                            <label class="font-weight-bold">Usuario o email</label>
+                            <input type="text" class="form-control">
+                        </div>
+        
+                        <div class="form-group col-12">
+                            <label class="font-weight-bold">Password</label>
+                            <a href="#" id="forgetpass" class="text-info">Olvidaste tu contraseña?</a>
+                            <input type="password" class="form-control">
+                        </div>
+
+                        <div class="col-12 mt-n2 mb-2 px-3 d-inline-flex justify-content-between enviar">
+                            <div class=>
+                                <input type="checkbox">
+                                <label class="text-secondary">Recordarme</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary rounded-pill smallfont">ENVIAR</button>
+                        </div>  
+
+                        <hr class="mx-4">
+                        <p class="text-center text-secondary">Inicia sesión con tus redes sociales</p>
+
+                        <div class="col-12 d-block d-inline-flex mt-2 mb-2 justify-content-center">
+                            <a href="#" class="btn btn-info rounded-pill smallfont"><img src="img/facebook.svg" width="auto" height="20px"> Logear con Facebook</a>
+                        </div>
+
+                        <div class="col-12 d-inline-flex mb-4 justify-content-center">
+                            <a href="#" class="btn btn-danger rounded-pill smallfont"><img src="img/google.svg" width="auto" height="22px" class="mr-3">Logear con Google</a>
+                        </div>
+                            
+                    </form>
+
+                    <div class="col-12 mb-2 text-center d-md-none formulario">
+                        <label class="text-secondary">No tienes cuenta?</label>
+                        <a href="#" class="text-info font-weight-bold">Registrate</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 mt-3 text-center d-none d-md-block">
+                <label class="text-white">No tienes cuenta?</label>
+                <a href="#" class="text-white font-weight-bold">Registrate</a>
+            </div>
+
+
+
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+
+</html>
